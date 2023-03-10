@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h2>Educational Form</h2>
+    <div class="a">
+    <form >
+        <fieldset>
+            <legend id="b"> <b> Personal information</b></legend>
+        First Name: <input type="text" placeholder="enter your first name" name="first name"  class="z"> <br><br>
+        Last Name: <input type="text" placeholder="enter your last name" Name="last name" class="z" ><br><br>
+        DOB: <input type="text" placeholder="Date Of Birth" class="z"><br><br>
+        Password: <input type="password" placeholder="enter password" required maxlength="5" class="z"> <br><br>
+        Gender: Male <input type="radio" value="m" name="gender "> Female <input type="radio" value="F" name="gender"> Others <input type="radio" name="gender"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend class="ab"> <b> Degree</b></legend>
+        Degree: 10th<input type="checkbox" value="ten" name="secondary"> <select>
+        
+        
+        <br>
+        
+            
+            <option value="Pb">punjab board</option>
+            <option selected value="Db">Dinajpur Board</option>
+            <option value="CH">Chandigrah Board</option>
+        </select>  12th <input type="checkbox" value="twelve" name="higher-secondary" checked> <select>
+            
+            <option value="Pb">punjab board</option>
+            <option value="Db">Dinajpur Board</option>
+            <option value="CH">Chandigrah Board</option>
+        </select>  B.tech <input type="checkbox" value="graduation" name="bacholor"><select>
+            
+            <option value="Pb">punjab board</option>
+            <option value="Db">Dinajpur Board</option>
+            <option  value="CH">Chandigrah Board</option>
+        </select><br><br>
+        <!-- Board: -->
+        <!-- <select> -->
+            
+            <!-- <option value="Pb">punjab board</option> -->
+            <!-- <option value="Db">Dinajpur Board</option> -->
+            <!-- <option value="CH">Chandigrah Board</option> -->
+        <!-- </select> -->
+        </fieldset>
+        <fieldset>
+        <legend class="ab"> <b> any other </b></legend>
+        Message:<textarea name="message" id="m" cols="30" rows="15"></textarea><br><br>
+        <input type="text" value="Sign Up" class="x"><br><br>
+        <input type="text" value="Reset" class="x"> <br><br>
+        <input type="text" value="Submit" class="x"><br><br>
+        <button value="Cancel" id="x">Cancel</button><br><br>
+        
+    </fieldset>
+    </form>
+    <h2>Searchable Dropdown</h2>
+    <form >
+        <input type="text" list="icecream">
+        <datalist id="icecream">
+            <option value="butterscotch">
+                <option value="mango"> 
+                    <option value="litchi"> 
+                        <option value="Vanila"> 
+                            <option value="orange"> 
+        </datalist>
+    </form>
+</div>
+</body>
+</html>

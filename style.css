@@ -1,0 +1,60 @@
+img
+{
+width:200px;
+margin: 10px;
+border-style: solid;
+border-radius: 50%;
+background-color: aqua;
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+
+}
+h3
+{
+color:black;
+background-color: rgb(113, 123, 120);
+
+
+}
+.email
+{
+text-align: right;
+}
+.phone
+{
+text-align: right;
+}
+.address
+{
+text-align: right;
+}
+.edu
+{
+color:black;
+background-color: rgb(150, 161, 134);
+}
+.e
+{
+color:rgb(37, 32, 97);
+background-color: rgb(126, 136, 133);
+
+}
+.name
+{
+background-color: rgb(54, 132, 132);
+}
+#a
+{
+    background-color: rgb(49, 121, 121);
+}
+.skill-head
+{
+    background-color: rgb(121, 125, 124);
+}
+.inter-head
+{
+    background-color: rgb(118, 129, 129);
+}
+
